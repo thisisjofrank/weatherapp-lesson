@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": -74.006,
+        "lat": 40.7143
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 284.07,
+        "feels_like": 283.65,
+        "temp_min": 283.15,
+        "temp_max": 285.15,
+        "pressure": 1018,
+        "humidity": 93
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 1.57,
+        "deg": 176,
+        "gust": 2.63
+    },
+    "clouds": {
+        "all": 90
+    },
+    "dt": 1618056595,
+    "sys": {
+        "type": 1,
+        "id": 4610,
+        "country": "US",
+        "sunrise": 1618050265,
+        "sunset": 1618097378
+    },
+    "timezone": -14400,
+    "id": 5128581,
+    "name": "New York",
+    "cod": 200
+}
