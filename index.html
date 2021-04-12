@@ -12,22 +12,45 @@
         <header>The Best Weather App</header>
         <main>
             <section>
-                <h1>London, UK</h1>
-                <img class="icon" src=" http://openweathermap.org/img/wn/04d@4x.png" alt="overcast clouds">
-                <h2>Overcast clouds</h2>
+                <h1 data-name="city">London, 
+                    <span data-name="country">UK</span>
+                </h1>
+                <img id="icon" class="icon" src="" alt="overcast clouds">
+                <h2 data-name="description">Overcast clouds</h2>
             </section>
             <h3 class="temperature">
                 <span class="temperature-title">Temperature:</span>
-                <span class="temperature-value">30&deg;</span>
+                <span class="temperature-value">
+                    <span data-temp data-name="temp">30</span>&deg;
+                </span>
             </h3>
             </div>
             <ul>
-                <li>Feels like: <span class="value">30&deg;</span></li>
-                <li>Max temp: <span class="value">32&deg;</span></li>
-                <li>Min temp: <span class="value">19&deg;</span></li>
-                <li>Humidity: <span class="value">10%</span></li>
-                <li>Visibility: <span class="value">1km</span></li>
-                <li>Wind Speed: <span class="value">1.75</span></li>
+                <li>Feels like: 
+                    <span class="value">
+                        <span data-temp data-name="feels_like">30</span>&deg;
+                    </span>
+                </li>
+                <li>Max temp: 
+                    <span class="value">
+                        <span data-temp data-name="temp_max">32</span>&deg;
+                    </span>
+                </li>
+                <li>Min temp: 
+                    <span class="value">
+                        <span data-temp data-name="temp_min">19</span>&deg;
+                    </span>
+                </li>
+                <li>Humidity: 
+                    <span class="value">
+                        <span data-name="humidity">10</span>%
+                    </span>
+                </li>
+                <li>Wind Speed: 
+                    <span class="value">
+                        <span data-name="wind_speed">1.75</span>
+                    </span>
+                </li>
             </ul>
         </main>
         <footer>Made by Jo Franchetti powered by Ably</footer>
